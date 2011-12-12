@@ -7,6 +7,7 @@ source 'http://rubygems.org'
 
 gem 'pg'
 gem "haml-rails"
+gem "sass"
 # Use unicorn as the web server
 # gem 'unicorn'
 
