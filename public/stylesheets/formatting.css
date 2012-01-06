@@ -1,4 +1,25 @@
-/*
-  Override default refinery formatting below.
-  Formatting applies to backend WYSIWYG editors and all frontend.
-*/
+body {
+  width: 700px; }
+
+#body_content, #side_body_content {
+  float: left;
+  width: 700px; }
+
+header {
+  width: 700px; }
+  header h1 {
+    color: purple;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-bottom: 8px; }
+  header h3 {
+    font-family: Century Gothic, Arial, Sans-Serif;
+    font-style: italic;
+    color: #00008b;
+    padding: 0px;
+    margin: 4px 0; }
+  header a {
+    color: purple;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-bottom: 8px; }
+  header #logo {
+    color: yellow; }
