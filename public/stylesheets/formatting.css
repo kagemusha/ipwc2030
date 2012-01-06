@@ -1,8 +1,10 @@
 body {
-  width: 700px; }
+  width: 700px;
+  background: #58fad0; }
 
 #body_content, #side_body_content {
   float: left;
+  background: #58fad0;
   width: 700px; }
 
 header {
