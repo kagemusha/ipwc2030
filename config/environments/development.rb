@@ -27,7 +27,7 @@ end
 Refinery.rescue_not_found = false
 # When true will use Amazon's Simple Storage Service on your production machine
 # instead of the default file system for resources and images
-ENV['S3_KEY']='1BDZ7YPN37W0X25YH8R2'
-ENV['S3_SECRET']='4wh/STlofai2Fw9XhB13kT+5ieXvFLDx2uDY0oha'
-ENV['S3_BUCKET']='ipwc2030'
+#ENV['S3_KEY']='1BDZ7YPN37W0X25YH8R2'
+#ENV['S3_SECRET']='4wh/STlofai2Fw9XhB13kT+5ieXvFLDx2uDY0oha'
+#ENV['S3_BUCKET']='ipwc2030'
 Refinery.s3_backend = !(ENV['S3_KEY'].nil? || ENV['S3_SECRET'].nil?)

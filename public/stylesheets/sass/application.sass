@@ -7,7 +7,7 @@ body
   line-height: 18px
 
 #page_container
-  margin: 20px 40px
+  margin: 30px 80px
 
 
 #body_content, #side_body_content
@@ -15,7 +15,7 @@ body
   width: 45%
   background: white
   color: #333
-  padding: 20px
+  //padding: 40px
   min-height: 400px
 
 
@@ -27,6 +27,7 @@ body
 #menu ul li
   float: left
   margin-right: 10px
+  background: none
 
 
 #menu ul li a
@@ -34,10 +35,14 @@ body
   padding: 5px 10px
   text-decoration: none
 
+#menu ul li.selected a
+  background: none
+  font-weight: bold
+  color: blue
 
-#menu ul li.selected a, #menu ul li a:hover
-  background: #CCC
-
+#menu ul li a:hover
+  background: none
+  font-weight: bold
 
 h1 a
   text-decoration: none
