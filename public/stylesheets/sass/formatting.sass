@@ -1,10 +1,21 @@
 //Override default refinery formatting below.
 //Formatting applies to backend WYSIWYG editors and all frontend.
-
-
+$content_width: 700px
 $bgColor: #58FAD0
+
+nav#menu
+  margin: 14px 0 10px 0
+  border-top: 2px solid black
+  border-bottom: 2px solid black
+  //border-top: 2px
+  //border-bottom: 2px
+  width: $content_width
+  ul li
+    padding-top: 6px
+    //background: yellow
+    line-height: 2px
 body
-  width: 700px
+  width: $content_width
   background: $bgColor
 
 #body_content, #side_body_content

@@ -1,3 +1,12 @@
+nav#menu {
+  margin: 14px 0 10px 0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 700px; }
+  nav#menu ul li {
+    padding-top: 6px;
+    line-height: 2px; }
+
 body {
   width: 700px;
   background: #58fad0; }
